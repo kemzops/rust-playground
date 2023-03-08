@@ -1,0 +1,12 @@
+[package]
+name = "gtk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = "0.17.0"
+chrono = "0.4.23"
+
+[[bin]]
+name = "gtk"
+path = "main.rs"
